@@ -1,0 +1,53 @@
+.products-container-one{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banniere-container{
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    }
+
+#banniere-promotion{
+}
+
+.products-container-two{
+    display: flex;
+    justify-content: center;
+}
+
+.product-child-one {
+    width: 200px;  /* ou toute autre largeur qui vous convient */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 300px;
+    background-color: white;
+}
+
+.img-item {
+    width: 100%;  /* Ajuste l'image à la largeur du conteneur */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+}
+
+.price-container{
+    display: flex;
+justify-content: space-between;
+}
+
+.price-kg{
+    font-size: small;
+}
+
+.add-panier{
+    border-radius: 50%;
+    border: none;
+    background-color: #4F90D6;
+    color: white;
+    width: 20%;
+}

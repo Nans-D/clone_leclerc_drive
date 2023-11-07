@@ -1,0 +1,30 @@
+.max-width{
+    max-width: 72rem;
+    text-align: center;
+    padding: 2em 5em;
+
+}
+
+.footer-background{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-background a{
+    text-decoration: none;  
+    padding: 0 5px;  
+    color: white;
+}
+
+.follow-us-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.links-footer{
+    border-right: 1px solid white;
+}
+
+

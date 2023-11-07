@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+    width: 500px;
+}
+
+#submit-icon{
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+#search-input{
+    padding-left: 50px;
+    z-index: -1;
+}
+#search-input:focus{
+    outline: none;
+}
+
+input{
+    width: 700px;
+    height: 35px;
+    padding : 0 10px; 
+    border: none;
+    background-color: lightgrey;
+    border-radius: 5px;
+    
+}
+
+.user-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.drive img{
+    width: 100px;
+    display: flex;
+    
+}
+
+
